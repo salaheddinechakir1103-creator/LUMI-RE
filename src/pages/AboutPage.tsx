@@ -1,3 +1,4 @@
+import fixedImage0 from '../assets/images/hero_editorial_lumiere_1792768475045.jpg';
 import React from 'react';
 import { useStore } from '../context/StoreContext';
 import { Compass, Sparkles, Award, HeartHandshake, ArrowRight } from 'lucide-react';
@@ -25,7 +26,7 @@ export const AboutPage: React.FC = () => {
         {/* Large Editorial Photograph */}
         <div className="relative aspect-[16/9] bg-zinc-900 border border-white/10 overflow-hidden">
           <img
-            src="/src/assets/images/hero_editorial_lumiere_1792768475045.jpg"
+            src={fixedImage0}
             alt="L’Atelier Maison Lumière"
             className="w-full h-full object-cover filter brightness-90"
           />
