@@ -35,6 +35,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
       <div className="relative aspect-[4/5] w-full bg-[#16161F] overflow-hidden">
         <img
           src={product.image}
+          onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = product.galleryImages[0] || ''; }}
           alt={product.name}
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
           loading="lazy"
