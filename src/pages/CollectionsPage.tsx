@@ -1,3 +1,7 @@
+import fixedImage0 from '../assets/images/product_perfume_elixir_1792768475631.jpg';
+import fixedImage1 from '../assets/images/collection_leather_goods_1792768477250.jpg';
+import fixedImage2 from '../assets/images/collection_haute_horlogerie_1792768477398.jpg';
+import fixedImage3 from '../assets/images/collection_haute_couture_1792768476829.jpg';
 import React from 'react';
 import { useStore } from '../context/StoreContext';
 import { ArrowRight, Sparkles } from 'lucide-react';
@@ -11,7 +15,7 @@ export const CollectionsPage: React.FC = () => {
       title: 'Haute Parfumerie d’Orient',
       kicker: 'Collection Signature',
       quote: '« Une composition olfactive n’est pas un parfum, c’est un sanctuaire émotionnel. »',
-      image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
+      image: fixedImage0,
       description: "Distillée entre Grasse et les contreforts de l'Atlas, cette collection rassemble des extraits absolus rares dosés à plus de 30%. Flacons de cristal lourd facettés à la main et bouchons en laiton massif.",
       highlights: ['Élixir de Lumière', 'Ambre Noir Souverain', 'Bois Sacré d’Atlas', 'Rose du Crépuscule']
     },
@@ -20,7 +24,7 @@ export const CollectionsPage: React.FC = () => {
       title: 'Maroquinerie d’Exception',
       kicker: 'L’Art de la Sellerie',
       quote: '« Le cuir ne vieillit pas, il acquiert la patine des destins nobles. »',
-      image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
+      image: fixedImage1,
       description: "Des sacs et bagages d'apparat confectionnés en cuir de veau pleine fleur grainé, tanné aux écorces végétales et assemblés au point sellier traditionnel avec des fermoirs sculptés comme des bijoux.",
       highlights: ['Sac Talisman Noir', 'Cabas Royal Palace', 'Besace Soirée Fermoir Or']
     },
@@ -29,7 +33,7 @@ export const CollectionsPage: React.FC = () => {
       title: 'Haute Horlogerie & Éclat',
       kicker: 'Micromécanique & Or 18k',
       quote: '« Maîtriser le temps à travers l’or et le saphir. »',
-      image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
+      image: fixedImage2,
       description: "Chronomètres à tourbillon squeletté, boîtiers en titane sablé et joncs d'or 18 carats brossés à la main. Chaque garde-temps est numéroté et assemblé sur commande spéciale.",
       highlights: ['Chronographe Squelette Titane', 'Jonc Rayon de Lumière', 'Bague Émeraude d’Atlas']
     },
@@ -38,7 +42,7 @@ export const CollectionsPage: React.FC = () => {
       title: 'Couture & Soie Pure',
       kicker: 'Silhouettes Architecturales',
       quote: '« La coupe parfaite se suffit à elle-même, libre de tout artifice. »',
-      image: '/src/assets/images/collection_haute_couture_1792768476829.jpg',
+      image: fixedImage3,
       description: "Manteaux en pur cachemire double-face cousus main, robes drapées en crêpe de soie italienne et smokings de gala aux lignes nettes et épurées.",
       highlights: ['Manteau Cachemire Noir', 'Robe Drapée Soie Dorée', 'Smoking Soirée']
     }
