@@ -1,3 +1,8 @@
+import lumiAsset0 from '../assets/images/product_perfume_elixir_1792768475631.jpg';
+import lumiAsset1 from '../assets/images/hero_editorial_lumiere_1792768475045.jpg';
+import lumiAsset2 from '../assets/images/collection_leather_goods_1792768477250.jpg';
+import lumiAsset3 from '../assets/images/collection_haute_horlogerie_1792768477398.jpg';
+import lumiAsset4 from '../assets/images/collection_haute_couture_1792768476829.jpg';
 import { Product } from '../types';
 
 export const INITIAL_PRODUCTS: Product[] = [
@@ -13,10 +18,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 2800,
     rating: 4.95,
     reviewsCount: 142,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
+    image: lumiAsset0,
     galleryImages: [
-      '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-      '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
+      lumiAsset0,
+      lumiAsset1,
     ],
     description: "Le chef-d'œuvre olfactif de la Maison Lumière. Une création solaire et mystérieuse sculptée dans un flacon de cristal facetté à la main, surmonté d'un bouchon en laiton brossé lourd d'or. Une harmonie vibrante de bergamote de Calabre, de fleur d'oranger du Maroc et de vanille bourbon fumée.",
     details: {
@@ -57,8 +62,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2200,
     rating: 4.88,
     reviewsCount: 89,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "Une plongée envoûtante dans la pénombre des palais impériaux. Les volutes d'encens sacré se mêlent à la chaleur animale d'un ambre sombre et au cuir vieilli patiné à la cire d'abeille.",
     details: {
       origin: 'Atelier de Grasse',
@@ -92,8 +97,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2350,
     rating: 4.92,
     reviewsCount: 64,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "La rose de Kelâat M'Gouna cueillie à la rosée de l'aube, sublimée au crépuscule par des bois précieux fumés et une touche d'ambre rose luminescent.",
     details: {
       origin: 'Vallée des Roses & Paris',
@@ -123,8 +128,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2600,
     rating: 4.97,
     reviewsCount: 110,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "Un hommage majestueux aux forêts millénaires du Moyen Atlas. Le bois de cèdre majestueux s'allie au pin sylvestre et au benjoin du Siam dans une composition d'une noblesse rare.",
     details: {
       origin: 'Ifrane & Paris',
@@ -153,8 +158,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1950,
     rating: 4.85,
     reviewsCount: 42,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "Une explosion de fraîcheur aristocratique. Fleurs de bigaradier récoltées à la main sous le soleil méditerranéen, vivifiées par le pamplemousse rose et la menthe blanche.",
     details: {
       origin: 'Cap Bon & Grasse',
@@ -184,10 +189,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 9500,
     rating: 4.98,
     reviewsCount: 76,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
+    image: lumiAsset2,
     galleryImages: [
-      '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-      '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
+      lumiAsset2,
+      lumiAsset1,
     ],
     description: "Façonné à la main par nos maîtres selliers dans un cuir de veau grainé noir d'une tenue remarquable. Sa signature : un fermoir architectural sculpté en laiton massif finition champagne or, symbole de protection et d'élégance intemporelle.",
     details: {
@@ -218,8 +223,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 6400,
     rating: 4.91,
     reviewsCount: 53,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Le compagnon idéal des voyages et journées d'escapade. Toile jacquard sergée de lin et coton imperméabilisée, ornée de brides en cuir sellerie teinté dans la masse et coutures point sellier.",
     details: {
       origin: 'Marrakech',
@@ -246,8 +251,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 5800,
     rating: 4.89,
     reviewsCount: 38,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Pochette sculpturale conçue pour illuminer les réceptions nocturnes. Fermoir graphique à ressort dissimulé et chaîne bijou amovible polie miroir.",
     details: {
       origin: 'Casablanca',
@@ -274,8 +279,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2200,
     rating: 4.82,
     reviewsCount: 61,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Une ergonomie parfaite qui se glisse dans chaque poche ou sac. Cuir texturé résistant aux éraflures avec 8 fentes cartes et compartiment zippé.",
     details: {
       origin: 'Ateliers Lumière',
@@ -302,9 +307,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 52000,
     rating: 5.0,
     reviewsCount: 29,
-    image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
+    image: lumiAsset3,
     galleryImages: [
-      '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
+      lumiAsset3,
     ],
     description: "Une prouesse micromécanique célébrant l'avant-garde horlogère. Boîtier bi-matière en titane grade 5 sablé et lunette en or rose 18 carats. Cadran squeletté laissant admirer les rouages du tourbillon volant battant à 28'800 alternances par heure.",
     details: {
@@ -334,8 +339,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 14200,
     rating: 4.96,
     reviewsCount: 47,
-    image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
-    galleryImages: ['/src/assets/images/collection_haute_horlogerie_1792768477398.jpg'],
+    image: lumiAsset3,
+    galleryImages: [lumiAsset3],
     description: "Un ruban d'or brossé artisanalement, serti de 12 diamants noirs taille brillant évoquant les constellations célestes du désert de Merzouga.",
     details: {
       origin: 'Ateliers de Joaillerie Paris',
@@ -362,8 +367,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 29500,
     rating: 4.97,
     reviewsCount: 22,
-    image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
-    galleryImages: ['/src/assets/images/collection_haute_horlogerie_1792768477398.jpg'],
+    image: lumiAsset3,
+    galleryImages: [lumiAsset3],
     description: "Une émeraude naturelle d'un vert profond hypnotisant, montée sur un corps de bague en platine pur à double griffes effilées.",
     details: {
       origin: 'Paris',
@@ -390,8 +395,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 9800,
     rating: 4.88,
     reviewsCount: 35,
-    image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
-    galleryImages: ['/src/assets/images/collection_haute_horlogerie_1792768477398.jpg'],
+    image: lumiAsset3,
+    galleryImages: [lumiAsset3],
     description: "Une médaille d'or texturée à la main selon la technique ancestrale du martelage, capturant chaque éclat de lumière avec une douceur organique.",
     details: {
       origin: 'Casablanca',
@@ -417,10 +422,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 18500,
     rating: 4.97,
     reviewsCount: 54,
-    image: '/src/assets/images/collection_haute_couture_1792768476829.jpg',
+    image: lumiAsset4,
     galleryImages: [
-      '/src/assets/images/collection_haute_couture_1792768476829.jpg',
-      '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
+      lumiAsset4,
+      lumiAsset1,
     ],
     description: "La pureté sculpturale incarnée. Confectionné dans un tissu double face 100% pur cachemire de Mongolie, cousu main sans doublure pour un tombé vaporeux et une douceur sans égale. Col tailleur minimaliste et boutonnage invisible.",
     details: {
@@ -452,10 +457,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 14500,
     rating: 4.99,
     reviewsCount: 68,
-    image: '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
+    image: lumiAsset1,
     galleryImages: [
-      '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
-      '/src/assets/images/collection_haute_couture_1792768476829.jpg',
+      lumiAsset1,
+      lumiAsset4,
     ],
     description: "Une silhouette de déesse contemporaine. Drapé sculptural réalisé à la main sur mannequin en crêpe de soie italienne champagne doré, avec traîne fluide asymétrique et taille marquée par un corset baleiné invisible.",
     details: {
@@ -485,8 +490,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 9200,
     rating: 4.90,
     reviewsCount: 31,
-    image: '/src/assets/images/collection_haute_couture_1792768476829.jpg',
-    galleryImages: ['/src/assets/images/collection_haute_couture_1792768476829.jpg'],
+    image: lumiAsset4,
+    galleryImages: [lumiAsset4],
     description: "L'allure androgyne absolue. Veste tailleur croisée aux épaules nettes, confectionnée en drap de laine vierge et parements en satin duchesse.",
     details: {
       origin: 'Paris',
@@ -513,8 +518,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 4900,
     rating: 4.86,
     reviewsCount: 45,
-    image: '/src/assets/images/collection_haute_couture_1792768476829.jpg',
-    galleryImages: ['/src/assets/images/collection_haute_couture_1792768476829.jpg'],
+    image: lumiAsset4,
+    galleryImages: [lumiAsset4],
     description: "Élégance fluide pour le jour et le soir. Satin de soie lavé offrant un toucher soyeux mat, poignets mousquetaires et ruban amovible.",
     details: {
       origin: 'Casablanca',
@@ -541,8 +546,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1250,
     rating: 4.93,
     reviewsCount: 112,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "Coulée à la main dans un pot en grès émaillé noir mat fabriqué par nos céramistes à Safi. Trois mèches en coton pur pour 80 heures de combustion embaumant votre intérieur d'effluves d'ambre chaud et de bois de santal.",
     details: {
       origin: 'Safi & Grasse',
@@ -569,8 +574,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2800,
     rating: 4.95,
     reviewsCount: 34,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Une pièce de design contemporain qui purifie et parfume l'atmosphère sans eau ni chaleur, préservant l'intégrité des huiles essentielles les plus nobles.",
     details: {
       origin: 'Casablanca',
@@ -596,8 +601,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1650,
     rating: 4.88,
     reviewsCount: 52,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-    galleryImages: ['/src/assets/images/product_perfume_elixir_1792768475631.jpg'],
+    image: lumiAsset0,
+    galleryImages: [lumiAsset0],
     description: "Quatre thés d'exception sélectionnés auprès de micro-plantations : Thé Blanc Jasmin Impérial, Menthe Nanah Sauvage des montagnes, Oolong Ambré et Thé Noir Rose & Safran de Taliouine.",
     details: {
       origin: 'Maroc & Asie',
@@ -622,8 +627,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 3200,
     rating: 4.96,
     reviewsCount: 19,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Chaque pièce est unique, révélant les veinures blanches naturelles du marbre noir espagnol Marquina. Finition polie satinée à la main.",
     details: {
       origin: 'Ateliers de Marrakech',
@@ -648,8 +653,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1850,
     rating: 4.89,
     reviewsCount: 28,
-    image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
-    galleryImages: ['/src/assets/images/collection_leather_goods_1792768477250.jpg'],
+    image: lumiAsset2,
+    galleryImages: [lumiAsset2],
     description: "Une seconde peau protectrice. Cuir d'agneau pleine fleur d'une souplesse incomparable avec doublure tricotée en 100% pur cachemire écru.",
     details: {
       origin: 'Casablanca',
@@ -676,8 +681,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2900,
     rating: 4.94,
     reviewsCount: 41,
-    image: '/src/assets/images/hero_editorial_lumiere_1792768475045.jpg',
-    galleryImages: ['/src/assets/images/hero_editorial_lumiere_1792768475045.jpg'],
+    image: lumiAsset1,
+    galleryImages: [lumiAsset1],
     description: "Dessinée à la plume dans nos ateliers parisiens, représentant les zelliges géométriques fusionnés aux constellations du ciel saharien. Roulotté à la française confectionné à la main.",
     details: {
       origin: 'Lyon & Paris',
@@ -705,10 +710,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 2100,
     rating: 4.98,
     reviewsCount: 189,
-    image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
+    image: lumiAsset0,
     galleryImages: [
-      '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
-      '/src/assets/images/collection_leather_goods_1792768477250.jpg'
+      lumiAsset0,
+      lumiAsset2
     ],
     description: "L'initiation idéale à l'univers olfactif de Lumière Store. Contient nos 5 fragrances phares (Élixir de Lumière, Ambre Noir, Rose du Crépuscule, Bois Sacré, Néroli Impérial) présentées dans des étuis en cuir véritable rechargeables.",
     details: {
