@@ -113,7 +113,7 @@ export const CartDrawer: React.FC = () => {
                     {/* Image */}
                     <div className="w-20 h-24 bg-zinc-900 border border-white/10 shrink-0 overflow-hidden">
                       <img
-                        src={item.product.image}
+                        src={item.product.image} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = item.product.galleryImages[0] || ''; }}
                         alt={item.product.name}
                         className="w-full h-full object-cover"
                       />
