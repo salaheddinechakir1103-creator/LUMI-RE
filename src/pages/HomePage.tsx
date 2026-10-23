@@ -1,3 +1,8 @@
+import lumiAsset0 from '../assets/images/product_perfume_elixir_1792768475631.jpg';
+import lumiAsset1 from '../assets/images/collection_leather_goods_1792768477250.jpg';
+import lumiAsset2 from '../assets/images/collection_haute_horlogerie_1792768477398.jpg';
+import lumiAsset3 from '../assets/images/collection_haute_couture_1792768476829.jpg';
+import lumiAsset4 from '../assets/images/hero_editorial_lumiere_1792768475045.jpg';
 import React, { useState } from 'react';
 import { useStore } from '../context/StoreContext';
 import { CinematicHeroExperience } from '../components/video/CinematicHeroExperience';
@@ -29,28 +34,28 @@ export const HomePage: React.FC = () => {
       id: 'parfumerie',
       title: 'Haute Parfumerie',
       subtitle: 'Extraits absolus distillés à Grasse et Marrakech',
-      image: '/src/assets/images/product_perfume_elixir_1792768475631.jpg',
+      image: lumiAsset0,
       count: '6 Créations'
     },
     {
       id: 'maroquinerie',
       title: "Maroquinerie d'Exception",
       subtitle: 'Veau grainé pleine fleur et fermoirs sculptés à la main',
-      image: '/src/assets/images/collection_leather_goods_1792768477250.jpg',
+      image: lumiAsset1,
       count: '5 Pièces Maîtresses'
     },
     {
       id: 'horlogerie',
       title: 'Haute Horlogerie & Joaillerie',
       subtitle: 'Calibres squelette tourbillon et or 18 carats brossé',
-      image: '/src/assets/images/collection_haute_horlogerie_1792768477398.jpg',
+      image: lumiAsset2,
       count: '4 Garde-Temps'
     },
     {
       id: 'couture',
       title: 'Couture & Soie',
       subtitle: 'Silhouettes architecturales en cachemire et soies précieuses',
-      image: '/src/assets/images/collection_haute_couture_1792768476829.jpg',
+      image: lumiAsset3,
       count: '5 Pièces Rares'
     }
   ];
@@ -104,7 +109,7 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* 3. Curated Collections Showcase */}
-      <section className="py-20 px-6 max-w-7xl mx-auto">
+      <section className="lumi-collections py-20 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b border-white/10 pb-6">
           <div>
             <span className="text-[11px] uppercase tracking-[0.3em] text-[#D4AF37] font-mono block mb-2">
@@ -158,7 +163,7 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* 4. Featured Masterpieces ("Objets de Désir") */}
-      <section className="py-20 px-6 bg-[#111116] border-y border-white/10">
+      <section className="lumi-featured py-20 px-6 bg-[#111116] border-y border-white/10">
         <div className="max-w-7xl mx-auto">
           
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10">
@@ -255,7 +260,7 @@ export const HomePage: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="aspect-[4/5] bg-zinc-900 border border-white/10 overflow-hidden relative">
               <img
-                src="/src/assets/images/hero_editorial_lumiere_1792768475045.jpg"
+                src=lumiAsset4
                 alt="Atelier Maison Lumière"
                 className="w-full h-full object-cover filter brightness-90"
               />
