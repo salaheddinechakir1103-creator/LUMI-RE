@@ -1,3 +1,7 @@
+import lumiAsset0 from '../../assets/images/product_perfume_elixir_1792768475631.jpg';
+import lumiAsset1 from '../../assets/images/hero_editorial_lumiere_1792768475045.jpg';
+import lumiAsset2 from '../../assets/images/collection_haute_horlogerie_1792768477398.jpg';
+import lumiAsset3 from '../../assets/images/collection_leather_goods_1792768477250.jpg';
 import React, { useState, useRef, useEffect } from 'react';
 import { Hero3DPerfume } from '../3d/Hero3DPerfume';
 import { StoryboardModal } from './StoryboardModal';
@@ -46,28 +50,28 @@ export const CinematicHeroExperience: React.FC = () => {
     {
       title: "I. L'Écrin Solaire",
       subtitle: "Réflexions & Caustiques Cristallines",
-      image: "/src/assets/images/product_perfume_elixir_1792768475631.jpg",
+      image: lumiAsset0,
       timecode: "00:00 - 00:04",
       lens: "Arri Master Macro 100mm"
     },
     {
       title: "II. L'Égérie & Le Drapé",
       subtitle: "Soie Dorée & Galeries de Calcaire",
-      image: "/src/assets/images/hero_editorial_lumiere_1792768475045.jpg",
+      image: lumiAsset1,
       timecode: "00:04 - 00:08",
       lens: "Cooke Anamorphic 50mm"
     },
     {
       title: "III. Le Maître Horloger",
       subtitle: "Tourbillon Squeletté & Or Rose",
-      image: "/src/assets/images/collection_haute_horlogerie_1792768477398.jpg",
+      image: lumiAsset2,
       timecode: "00:08 - 00:12",
       lens: "Leica Summilux-C 35mm"
     },
     {
       title: "IV. La Maroquinerie d'Apparat",
       subtitle: "Fermoir Laiton & Cuir Taurillon",
-      image: "/src/assets/images/collection_leather_goods_1792768477250.jpg",
+      image: lumiAsset3,
       timecode: "00:12 - 00:16",
       lens: "Arri Signature Prime 40mm"
     }
@@ -137,7 +141,7 @@ export const CinematicHeroExperience: React.FC = () => {
   const activeScene = cinematicScenes[currentSceneIndex];
 
   return (
-    <section className="relative w-full min-h-[85vh] lg:min-h-[92vh] flex flex-col justify-between bg-[#0D0D11] border-b border-white/10 overflow-hidden select-none">
+    <section className="lumi-mobile-hero relative w-full min-h-[85vh] lg:min-h-[92vh] flex flex-col justify-between bg-[#0D0D11] border-b border-white/10 overflow-hidden select-none">
       
       {/* Visual Canvas Stage (Starts in Video mode by default!) */}
       <div className="relative w-full flex-1 min-h-[580px] lg:min-h-[720px]">
@@ -148,7 +152,7 @@ export const CinematicHeroExperience: React.FC = () => {
             <video
               ref={videoRef}
               src="/videos/hero.mp4"
-              poster="/src/assets/images/hero_editorial_lumiere_1792768475045.jpg"
+              poster=lumiAsset1
               autoPlay
               muted={isMuted}
               loop
