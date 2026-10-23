@@ -152,7 +152,7 @@ export const CinematicHeroExperience: React.FC = () => {
             <video
               ref={videoRef}
               src="/videos/hero.mp4"
-              poster=lumiAsset1
+              poster={lumiAsset1}
               autoPlay
               muted={isMuted}
               loop
