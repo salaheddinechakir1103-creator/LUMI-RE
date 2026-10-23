@@ -18,7 +18,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 2800,
     rating: 4.95,
     reviewsCount: 142,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset0,
       lumiAsset1,
@@ -62,7 +62,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2200,
     rating: 4.88,
     reviewsCount: 89,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "Une plongée envoûtante dans la pénombre des palais impériaux. Les volutes d'encens sacré se mêlent à la chaleur animale d'un ambre sombre et au cuir vieilli patiné à la cire d'abeille.",
     details: {
@@ -97,7 +97,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2350,
     rating: 4.92,
     reviewsCount: 64,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "La rose de Kelâat M'Gouna cueillie à la rosée de l'aube, sublimée au crépuscule par des bois précieux fumés et une touche d'ambre rose luminescent.",
     details: {
@@ -128,7 +128,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2600,
     rating: 4.97,
     reviewsCount: 110,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "Un hommage majestueux aux forêts millénaires du Moyen Atlas. Le bois de cèdre majestueux s'allie au pin sylvestre et au benjoin du Siam dans une composition d'une noblesse rare.",
     details: {
@@ -158,7 +158,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1950,
     rating: 4.85,
     reviewsCount: 42,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "Une explosion de fraîcheur aristocratique. Fleurs de bigaradier récoltées à la main sous le soleil méditerranéen, vivifiées par le pamplemousse rose et la menthe blanche.",
     details: {
@@ -189,7 +189,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 9500,
     rating: 4.98,
     reviewsCount: 76,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset2,
       lumiAsset1,
@@ -223,7 +223,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 6400,
     rating: 4.91,
     reviewsCount: 53,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Le compagnon idéal des voyages et journées d'escapade. Toile jacquard sergée de lin et coton imperméabilisée, ornée de brides en cuir sellerie teinté dans la masse et coutures point sellier.",
     details: {
@@ -251,7 +251,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 5800,
     rating: 4.89,
     reviewsCount: 38,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Pochette sculpturale conçue pour illuminer les réceptions nocturnes. Fermoir graphique à ressort dissimulé et chaîne bijou amovible polie miroir.",
     details: {
@@ -279,7 +279,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2200,
     rating: 4.82,
     reviewsCount: 61,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Une ergonomie parfaite qui se glisse dans chaque poche ou sac. Cuir texturé résistant aux éraflures avec 8 fentes cartes et compartiment zippé.",
     details: {
@@ -307,7 +307,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 52000,
     rating: 5.0,
     reviewsCount: 29,
-    image: lumiAsset3,
+    image: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset3,
     ],
@@ -339,7 +339,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 14200,
     rating: 4.96,
     reviewsCount: 47,
-    image: lumiAsset3,
+    image: 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset3],
     description: "Un ruban d'or brossé artisanalement, serti de 12 diamants noirs taille brillant évoquant les constellations célestes du désert de Merzouga.",
     details: {
@@ -367,7 +367,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 29500,
     rating: 4.97,
     reviewsCount: 22,
-    image: lumiAsset3,
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset3],
     description: "Une émeraude naturelle d'un vert profond hypnotisant, montée sur un corps de bague en platine pur à double griffes effilées.",
     details: {
@@ -395,7 +395,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 9800,
     rating: 4.88,
     reviewsCount: 35,
-    image: lumiAsset3,
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset3],
     description: "Une médaille d'or texturée à la main selon la technique ancestrale du martelage, capturant chaque éclat de lumière avec une douceur organique.",
     details: {
@@ -422,7 +422,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 18500,
     rating: 4.97,
     reviewsCount: 54,
-    image: lumiAsset4,
+    image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset4,
       lumiAsset1,
@@ -457,7 +457,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 14500,
     rating: 4.99,
     reviewsCount: 68,
-    image: lumiAsset1,
+    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset1,
       lumiAsset4,
@@ -490,7 +490,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 9200,
     rating: 4.90,
     reviewsCount: 31,
-    image: lumiAsset4,
+    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset4],
     description: "L'allure androgyne absolue. Veste tailleur croisée aux épaules nettes, confectionnée en drap de laine vierge et parements en satin duchesse.",
     details: {
@@ -518,7 +518,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 4900,
     rating: 4.86,
     reviewsCount: 45,
-    image: lumiAsset4,
+    image: 'https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset4],
     description: "Élégance fluide pour le jour et le soir. Satin de soie lavé offrant un toucher soyeux mat, poignets mousquetaires et ruban amovible.",
     details: {
@@ -546,7 +546,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1250,
     rating: 4.93,
     reviewsCount: 112,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "Coulée à la main dans un pot en grès émaillé noir mat fabriqué par nos céramistes à Safi. Trois mèches en coton pur pour 80 heures de combustion embaumant votre intérieur d'effluves d'ambre chaud et de bois de santal.",
     details: {
@@ -574,7 +574,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2800,
     rating: 4.95,
     reviewsCount: 34,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Une pièce de design contemporain qui purifie et parfume l'atmosphère sans eau ni chaleur, préservant l'intégrité des huiles essentielles les plus nobles.",
     details: {
@@ -601,7 +601,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1650,
     rating: 4.88,
     reviewsCount: 52,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset0],
     description: "Quatre thés d'exception sélectionnés auprès de micro-plantations : Thé Blanc Jasmin Impérial, Menthe Nanah Sauvage des montagnes, Oolong Ambré et Thé Noir Rose & Safran de Taliouine.",
     details: {
@@ -627,7 +627,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 3200,
     rating: 4.96,
     reviewsCount: 19,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Chaque pièce est unique, révélant les veinures blanches naturelles du marbre noir espagnol Marquina. Finition polie satinée à la main.",
     details: {
@@ -653,7 +653,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 1850,
     rating: 4.89,
     reviewsCount: 28,
-    image: lumiAsset2,
+    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset2],
     description: "Une seconde peau protectrice. Cuir d'agneau pleine fleur d'une souplesse incomparable avec doublure tricotée en 100% pur cachemire écru.",
     details: {
@@ -681,7 +681,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     priceMAD: 2900,
     rating: 4.94,
     reviewsCount: 41,
-    image: lumiAsset1,
+    image: 'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [lumiAsset1],
     description: "Dessinée à la plume dans nos ateliers parisiens, représentant les zelliges géométriques fusionnés aux constellations du ciel saharien. Roulotté à la française confectionné à la main.",
     details: {
@@ -710,7 +710,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPriceMAD: 2100,
     rating: 4.98,
     reviewsCount: 189,
-    image: lumiAsset0,
+    image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1100&q=85',
     galleryImages: [
       lumiAsset0,
       lumiAsset2
