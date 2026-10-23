@@ -42,3 +42,44 @@ h1, h2, h3, .font-editorial {
 ::-webkit-scrollbar-thumb:hover {
   background: #3F3F50;
 }
+
+/* LUMIÈRE — refined cinematic phone preview; desktop stays unchanged */
+@media (max-width: 639px) {
+  body { overflow-x: clip; }
+  .lumi-mobile-hero { min-height: 0; }
+  .lumi-mobile-hero > .relative.w-full.flex-1 { min-height: 0; }
+  .lumi-mobile-hero > .relative.w-full.flex-1 > .relative.w-full { height: 78svh; min-height: 570px; max-height: 840px; }
+  .lumi-mobile-hero .absolute.top-8.left-6 { display: none; }
+  .lumi-mobile-hero .absolute.top-6.right-6 { top: 10px; right: 10px; left: auto; max-width: calc(100% - 20px); }
+  .lumi-mobile-hero .absolute.top-6.right-6 button { padding: 6px; font-size: 9px; letter-spacing: 0; gap: 4px; }
+  .lumi-mobile-hero .absolute.top-6.right-6 button svg { width: 12px; height: 12px; }
+  .lumi-mobile-hero .absolute.bottom-20.left-6.right-6 { bottom: 20px; left: 10px; right: 10px; gap: 7px; }
+  .lumi-mobile-hero .absolute.bottom-20.left-6.right-6 > div { padding: 6px 9px; font-size: 10px; }
+  .lumi-mobile-hero .absolute.bottom-20.left-6.right-6 > button { padding: 8px 10px; font-size: 10px; align-self: flex-start; }
+  .lumi-mobile-hero > .relative.z-10 { padding: 14px 12px; }
+  .lumi-mobile-hero > .relative.z-10 .max-w-7xl { gap: 12px; }
+  .lumi-mobile-hero > .relative.z-10 p { font-size: 13px; }
+  .lumi-mobile-hero > .relative.z-10 button { padding: 10px 12px; font-size: 10px; }
+  .lumi-collections { padding: 44px 12px; }
+  .lumi-collections .grid.grid-cols-1 { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+  .lumi-collections .grid.grid-cols-1 > div { height: 240px; padding: 12px; }
+  .lumi-collections .grid.grid-cols-1 h3 { font-size: 16px; line-height: 1.1; }
+  .lumi-collections .grid.grid-cols-1 p { font-size: 10px; }
+  .lumi-collections .mb-12 { margin-bottom: 20px; }
+  .lumi-collections h2 { font-size: 26px; }
+  .lumi-featured { padding: 44px 12px; }
+  .lumi-featured .grid.grid-cols-1.sm\\:grid-cols-2 { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+  .lumi-featured h2 { font-size: 26px; }
+  .lumi-product-card { min-width: 0; }
+  .lumi-product-card .p-4 { padding: 9px; }
+  .lumi-product-card h3 { font-size: 14px; line-height: 1.2; white-space: normal; overflow-wrap: anywhere; }
+  .lumi-product-card .flex.items-baseline.justify-between { flex-wrap: wrap; gap: 4px; }
+  .lumi-product-card .flex.items-baseline.gap-2 { flex-wrap: wrap; gap: 2px; }
+  .lumi-product-card .text-sm.font-mono { font-size: 11px; }
+  .lumi-product-card .text-xs { font-size: 10px; }
+  .lumi-product-card .absolute.top-3 { top: 7px; }
+  .lumi-product-card .absolute.right-3 { right: 7px; }
+  .lumi-product-card .absolute.left-3 { left: 7px; }
+  .lumi-product-card .absolute.inset-x-0.bottom-0 { opacity: 1; padding: 5px; }
+  .lumi-product-card .absolute.inset-x-0.bottom-0 button { font-size: 9px; padding: 6px 4px; }
+}
