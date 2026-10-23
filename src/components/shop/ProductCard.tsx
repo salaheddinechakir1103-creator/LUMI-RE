@@ -29,7 +29,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
   return (
     <div 
       onClick={handleCardClick}
-      className="group relative flex flex-col bg-[#121218] border border-white/10 hover:border-[#D4AF37]/50 transition-all duration-300 cursor-pointer overflow-hidden"
+      className="lumi-product-card group relative flex flex-col bg-[#121218] border border-white/10 hover:border-[#D4AF37]/50 transition-all duration-300 cursor-pointer overflow-hidden"
     >
       {/* Visual Image Showcase (65-75% of card height) */}
       <div className="relative aspect-[4/5] w-full bg-[#16161F] overflow-hidden">
