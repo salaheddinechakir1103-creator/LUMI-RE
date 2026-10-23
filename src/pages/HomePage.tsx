@@ -260,7 +260,7 @@ export const HomePage: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="aspect-[4/5] bg-zinc-900 border border-white/10 overflow-hidden relative">
               <img
-                src=lumiAsset4
+                src={lumiAsset4}
                 alt="Atelier Maison Lumière"
                 className="w-full h-full object-cover filter brightness-90"
               />
