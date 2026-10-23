@@ -1,0 +1,6 @@
+{
+  "name": "Lumière Store - Haute Parfumerie & Mode de Luxe",
+  "description": "Boutique en ligne de haute parfumerie, maroquinerie d'art et mode de luxe. Expérience 3D interactive et objets de désir.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
