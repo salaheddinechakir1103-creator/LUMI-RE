@@ -378,7 +378,7 @@ export const CheckoutPage: React.FC = () => {
                   return (
                     <div key={item.id} className="flex gap-3 text-xs">
                       <div className="w-14 h-16 bg-zinc-900 border border-white/10 shrink-0 overflow-hidden">
-                        <img src={item.product.image} alt={item.product.name} className="w-full h-full object-cover" />
+                        <img src={item.product.image} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = item.product.galleryImages[0] || ''; }} alt={item.product.name} className="w-full h-full object-cover" />
                       </div>
                       <div className="flex-1 flex flex-col justify-between">
                         <div>
